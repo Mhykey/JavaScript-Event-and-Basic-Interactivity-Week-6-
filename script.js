@@ -65,5 +65,3 @@ playerBtn.addEventListener("click", function () {
   const randomPlayer = players[Math.floor(Math.random() * players.length)];
   playerDisplay.innerText = `Today's star is: ${randomPlayer}`;
 });
-}
-
