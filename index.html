@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Interactive Zone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Football Zone</h1>
+    <p>Your pitch for fun, interaction, and banter</p>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Join the Team</h2>
+      <form id="signup-form">
+        <label for="username">Fan Name:</label>
+        <input type="text" id="username" placeholder="Type your name">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Minimum 6 characters">
+
+        <button type="submit">Kick Off</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+
+ 
+    <section id="score-section">
+      <h2>Click to Score a Goal</h2>
+      <button id="goal-btn">Shoot!</button>
+      <p id="score-display">Goals: 0</p>
+    </section>
+
+   
+    <section id="player-section">
+      <h2>Player of the Day</h2>
+      <button id="player-btn">Reveal Player</button>
+      <p id="player-display"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
