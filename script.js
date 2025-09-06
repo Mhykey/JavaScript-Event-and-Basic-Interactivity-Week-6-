@@ -65,8 +65,5 @@ playerBtn.addEventListener("click", function () {
   const randomPlayer = players[Math.floor(Math.random() * players.length)];
   playerDisplay.innerText = `Today's star is: ${randomPlayer}`;
 });
-
-section {
-  max-width: 450px;
-  margin: 20px auto;
 }
+
